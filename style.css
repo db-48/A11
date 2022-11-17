@@ -45,6 +45,38 @@ header img {
 .shadow {
     text-shadow: 2px 2px 2px #800000;
 }
+
+#nav_menu ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+#nav_menu li{
+    float: left;
+}
+#nav_menu li a{
+    display: block;
+    text-align: center;
+    width:160px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #800000;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+#nav_menu li a.current{
+    color:yellow;
+}
+#nav_menu ul li ul{
+    display: block;
+    float: right;
+    position:relative;
+}
+#nav_menu ul li ul a:hover {
+    color:red;
+}
 /* the styles for the section */
 section {
     width: 525px;
