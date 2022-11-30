@@ -70,9 +70,9 @@ header img {
     color:yellow;
 }
 #nav_menu ul li ul{
-    display: block;
-    float: right;
-    position:relative;
+    display: none;
+
+
 }
 #nav_menu ul li ul a:hover {
     color:red;
